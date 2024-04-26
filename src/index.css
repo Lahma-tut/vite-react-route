@@ -1,0 +1,163 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 16px;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+  cursor: pointer;
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+h1 {
+  font-size: 26px;
+  line-height: 1.1;
+  margin: 0 0 10px 0;
+  color: #646cff;
+}
+
+h3 {
+  display: inline;
+  font-size: 21px;
+  line-height: 1.1;
+  color: #646cff;
+  transition: all 0.25s ease;
+}
+
+ol, ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+article {
+  margin: 0 0 20px 0;
+}
+
+button {
+  color: rgba(255, 255, 255, 0.87);
+  background-color: rgba(82, 82, 82, 0.87);
+  border: 1px;
+  padding: 0.4em 1.2em;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: inherit;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+button:hover {
+  color: #646cff;
+  filter: drop-shadow(0 0 1em #646cff);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#root {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+
+.header {
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cff);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin: 0 0 20px 0;
+}
+
+.select {
+  margin: 0 0 10px 0;
+}
+
+.posts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.posts-list {
+  color: rgba(255, 255, 255, 0.87);
+  margin: 0 0 10px 0;
+}
+
+.posts-title {
+  margin: 0 0 10px 0;
+}
+
+.image img {
+  max-width: 100%;
+}
+
+.active {
+  border-bottom: 2px solid #646cff;
+}
+
+.stisky {
+  position: sticky;
+  top: 2px;
+  background-color: rgba(82, 82, 82, 0.87);
+  margin: 0 0 20px 0;
+  padding: 3px 7px;
+  text-align: end;
+  border-radius: 1px;
+  transition: all 0.25s ease;
+}
+
+.button-back {
+  position: sticky;
+  top: 2px;
+  margin: 10px 0;
+  border-radius: 1px;
+}
